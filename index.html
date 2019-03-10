@@ -9,76 +9,106 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
   </head>
   <body>
-      <nav class="navbar" role="navigation" aria-label="main navigation">
-          <div class="navbar-brand">
-            <a class="navbar-item" href="https://bulma.io">
-              Social Hub Nürnberg
+    <nav class="navbar" role="navigation" aria-label="main navigation">
+      <div class="navbar-brand">
+        <a class="navbar-item" href="/">
+          Social Hub Nürnberg
+        </a>
+    
+        <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false"
+          data-target="navbarBasicExample">
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+        </a>
+      </div>
+    
+      <div id="navbarBasicExample" class="navbar-menu">
+        <div class="navbar-start">
+          <a class="navbar-item">
+            Startseite
+          </a>
+    
+          <a class="navbar-item">
+            Services
+          </a>
+     
+          <a class="navbar-item">
+            Marktplatz
+          </a>
+     
+          <a class="navbar-item">
+            Beratung
+          </a>
+    
+          <div class="navbar-item has-dropdown is-hoverable">
+            <a class="navbar-link">
+              Weitere Informationen
             </a>
-        
-            <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
-              <span aria-hidden="true"></span>
-              <span aria-hidden="true"></span>
-              <span aria-hidden="true"></span>
-            </a>
-          </div>
-        
-          <div id="navbarBasicExample" class="navbar-menu">
-            <div class="navbar-start">
+    
+            <div class="navbar-dropdown">
               <a class="navbar-item">
-                Startseite
+                Über Social Hub Nürnberg
               </a>
-        
               <a class="navbar-item">
-                Services
+                Unsere Arbeitsstellen
               </a>
-
-              
               <a class="navbar-item">
-                  Marktplatz
-                </a>
-
-                
+                Kontakt
+              </a>
+              <hr class="navbar-divider">
               <a class="navbar-item">
-                  Beratung
-                </a>
-        
-              <div class="navbar-item has-dropdown is-hoverable">
-                <a class="navbar-link">
-                  Weitere Informationen
-                </a>
-        
-                <div class="navbar-dropdown">
-                  <a class="navbar-item">
-                    Über Social Hub Nürnberg
-                  </a>
-                  <a class="navbar-item">
-                    Unsere Arbeitsstellen
-                  </a>
-                  <a class="navbar-item">
-                    Kontakt
-                  </a>
-                  <hr class="navbar-divider">
-                  <a class="navbar-item">
-                    Impressum
-                  </a>
-                </div>
-              </div>
-            </div>
-        
-            <div class="navbar-end">
-              <div class="navbar-item">
-                <div class="buttons">
-                  <a class="button is-danger">
-                    <strong>Registrieren</strong>
-                  </a>
-                  <a class="button is-light">
-                    Einloggen
-                  </a>
-                </div>
-              </div>
+                Impressum
+              </a>
             </div>
           </div>
-        </nav>
+
+          
+        </div>
+
+    
+        <div class="navbar-end">
+          <div class="navbar-item">
+            <a class="button is-small is-rounded is-outlined"><span class="icon">
+              <i class="fas fa-adjust"></i>
+            </span>
+            <span>Kontrast</span></a>
+          </div>
+
+        <div class="navbar-item">
+          <a class="button is-small is-rounded is-outlined"><span class="icon">
+              <i class="fas fa-text-height"></i>
+            </span>
+            <span>Schriftgröße</span></a>
+        </div>
+
+          <div class="navbar-item">
+            <a class="button is-small is-rounded is-outlined"><span class="icon">
+                <i class="fas fa-user-shield"></i>
+              </span>
+              <span>Leichte Sprache</span></a>
+          </div>
+
+          <div class="navbar-item">
+            <a class="button is-small is-rounded is-outlined"><span class="icon">
+                <i class="fas fa-globe-europe"></i>
+              </span>
+              <span>Sprache</span></a>
+          </div>
+
+          <div class="navbar-item">
+            <div class="buttons">
+              <a class="button is-danger">
+                <strong>Registrieren</strong>
+              </a>
+              <a class="button is-light">
+                Einloggen
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
     <section class="hero is-large is-primary header-image">
       <div class="hero-body">
         <div class="container">
@@ -109,7 +139,7 @@
               <div class="message-body">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. <strong>Pellentesque risus mi</strong>, tempus quis placerat ut, porta nec nulla. Vestibulum rhoncus ac ex sit amet fringilla. Nullam gravida purus diam, et dictum <a>felis venenatis</a> efficitur. Aenean ac <em>eleifend lacus</em>, in mollis lectus. Donec sodales, arcu et sollicitudin porttitor, tortor urna tempor ligula, id porttitor mi magna a neque. Donec dui urna, vehicula et sem eget, facilisis sodales sem.
               </div>
-              <a class="button is-medium is-fullwidth is-link">
+              <a class="button is-medium is-fullwidth is-link" href="/">
                   <span class="icon">
                       <i class="fas fa-chevron-right"></i>
                     </span>
@@ -125,7 +155,8 @@
                   <div class="message-body">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. <strong>Pellentesque risus mi</strong>, tempus quis placerat ut, porta nec nulla. Vestibulum rhoncus ac ex sit amet fringilla. Nullam gravida purus diam, et dictum <a>felis venenatis</a> efficitur. Aenean ac <em>eleifend lacus</em>, in mollis lectus. Donec sodales, arcu et sollicitudin porttitor, tortor urna tempor ligula, id porttitor mi magna a neque. Donec dui urna, vehicula et sem eget, facilisis sodales sem.
                   </div>
-                  <a class="button is-medium is-fullwidth is-primary"><span class="icon">
+                  <a class="button is-medium is-fullwidth is-primary" href="shop.html">
+                    <span class="icon">
                       <i class="fas fa-chevron-right"></i>
                     </span>
                     <span>Zum Marktplatz</span></a>
@@ -139,7 +170,8 @@
                   <div class="message-body">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. <strong>Pellentesque risus mi</strong>, tempus quis placerat ut, porta nec nulla. Vestibulum rhoncus ac ex sit amet fringilla. Nullam gravida purus diam, et dictum <a>felis venenatis</a> efficitur. Aenean ac <em>eleifend lacus</em>, in mollis lectus. Donec sodales, arcu et sollicitudin porttitor, tortor urna tempor ligula, id porttitor mi magna a neque. Donec dui urna, vehicula et sem eget, facilisis sodales sem.
                   </div>
-                  <a class="button is-medium is-fullwidth is-link"><span class="icon">
+                  <a class="button is-medium is-fullwidth is-link" href="/">
+                    <span class="icon">
                       <i class="fas fa-chevron-right"></i>
                     </span>
                     <span>Zu Beratung und Information</span></a>
